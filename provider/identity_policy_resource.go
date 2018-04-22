@@ -12,7 +12,7 @@ import (
 	oci_common "github.com/oracle/oci-go-sdk/common"
 	oci_identity "github.com/oracle/oci-go-sdk/identity"
 
-	"github.com/oracle/terraform-provider-oci/crud"
+	"github.com/chpatel3/terraform-provider-oci/crud"
 )
 
 func PolicyResource() *schema.Resource {

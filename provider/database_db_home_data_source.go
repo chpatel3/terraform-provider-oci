@@ -10,7 +10,7 @@ import (
 
 	"fmt"
 
-	"github.com/oracle/terraform-provider-oci/crud"
+	"github.com/chpatel3/terraform-provider-oci/crud"
 )
 
 func DbHomeDataSource() *schema.Resource {

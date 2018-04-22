@@ -8,7 +8,7 @@ import (
 	"github.com/hashicorp/terraform/helper/schema"
 	oci_core "github.com/oracle/oci-go-sdk/core"
 
-	"github.com/oracle/terraform-provider-oci/crud"
+	"github.com/chpatel3/terraform-provider-oci/crud"
 )
 
 func ImagesDataSource() *schema.Resource {
@@ -143,7 +143,7 @@ func (s *ImagesDataSourceCrud) SetData() {
 
 	for _, r := range s.Res.Items {
 		image := map[string]interface{}{
-		// "compartment_id": *r.CompartmentId,
+			// "compartment_id": *r.CompartmentId,
 		}
 
 		// The spec marks compartmentId as a required field, but the service doesn't return it for official images.

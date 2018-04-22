@@ -8,7 +8,7 @@ import (
 	"github.com/hashicorp/terraform/helper/schema"
 	"github.com/hashicorp/terraform/helper/validation"
 
-	"github.com/oracle/terraform-provider-oci/crud"
+	"github.com/chpatel3/terraform-provider-oci/crud"
 
 	"net/http"
 	"strconv"

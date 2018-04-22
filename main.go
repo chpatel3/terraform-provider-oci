@@ -6,7 +6,7 @@ import (
 	"github.com/hashicorp/terraform/plugin"
 	"github.com/hashicorp/terraform/terraform"
 
-	"github.com/oracle/terraform-provider-oci/provider"
+	"github.com/chpatel3/terraform-provider-oci/provider"
 )
 
 func main() {

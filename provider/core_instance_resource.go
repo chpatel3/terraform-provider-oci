@@ -15,7 +15,7 @@ import (
 	"github.com/hashicorp/terraform/helper/validation"
 	oci_core "github.com/oracle/oci-go-sdk/core"
 
-	"github.com/oracle/terraform-provider-oci/crud"
+	"github.com/chpatel3/terraform-provider-oci/crud"
 )
 
 const (
